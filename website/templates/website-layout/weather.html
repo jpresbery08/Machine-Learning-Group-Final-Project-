@@ -1,0 +1,87 @@
+<!-- This file will be a linkage too the -->
+
+<!DOCTYPE html>
+<html>
+	<main>
+
+		<head>
+			<title> ML Team 3</title>
+			<link rel = "stylesheet" href = "styles/main.css">
+		</head>
+
+		<body>
+			<header>
+						<nav>
+							<div class = "navbar">
+								<a href = "/"> Home </a>
+								<a href = "jermaine"> Jermaine</a>
+								<a href = "sean"> Sean </a>
+								<a href = "simon"> Simon </a>
+								<a href = "trenton"> Trenton </a>
+								<a href = "#"> Choose Your State </a> <!--- Current Directory -->
+						</nav>
+			</header>
+<!-- Explaining which each question is looking for in terms of answer-->
+
+								<!--- Form to input weather that -->
+			<div class = "weather-form" >
+				<form class = "form-container" method = "post" action = /predict>
+					<h1 class = "form-title">Choose Your Weather </h1>
+
+					<!-- Choosing of desired month -->
+					<label class="control-label col-sm-2" for="month">Desired Month:</label>
+              			<div class="col-sm-4">
+                			<input type="text" class="form-control" id="month" name="month">
+              			</div>
+		<!-- Space between the questions -->
+					<br>
+					<!-- Choosing desired Freq. of Rain in desired state -->
+					<label class="control-label col-sm-2" for="prcp_days_tRay">Desired Freq. of Rain: </label>
+              			<div class="col-sm-4">
+                			<input type="text" class="form-control" id="prcp_days_tRay" name="prcp_days_tRay">
+              			</div>
+		<!-- Space between the questions -->
+					<br>
+					<!-- Choosing of desired maximum temperature in preferred state  -->
+					<label class="control-label col-sm-2" for="temp_max_normalRay">Maximum Temperature: </label>
+              			<div class= "col-sm-4">
+                			<input type="text" class="form-control" id="temp_max_normalRay" name="temp_max_normalRay">
+              			</div>
+		<!-- Space between the questions -->
+					<br>
+					<!-- Choosing of desired minimum temperature in preferred state  -->
+					<label class="control-label col-sm-2" for="temp_min_normalRay">Minimum Temperature: </label>
+              			<div class="col-sm-4">
+                			<input type="text" class="form-control" id="temp_min_normalRay" name="temp_min_normalRay">
+              			</div>
+		<!-- Space between the questions -->
+					<br>
+
+					<!-- Choosing desired amount of snow days -->
+					<label class="control-label col-sm-2" for="snow_daysRay">Snow days:</label>
+              			<div class="col-sm-4">
+                			<input type="text" class="form-control" id="snow_daysRay" name="snow_daysRay">
+              			</div>
+		<!-- Space between the questions -->
+					<br>
+
+					<!-- Choosing desired amount of cloudy days -->
+					<label class="control-label col-sm-2" for="cloudsRay">Cloudy days:</label>
+              			<div class="col-sm-4">
+                			<input type="text" class="form-control" id="cloudsRay" name="cloudsRay">
+              			</div>
+
+
+
+					<!-- Space between the form and submit button -->
+					<br>
+					<br>
+					<button type = "submit"> Predict </button>
+				</form>
+			</div>
+				</div>
+
+        </body>
+    </main>
+</html>
+
