@@ -49,11 +49,11 @@ Each member of the group contributed separate but related work towards the final
 - Finalizing this README
 
 **Jermaine Presbery**
-- Working on Flask website
+- Working on the Flask website
 - Refactoring website structure
 - Created the Frontend structure with the use of HTML/CSS
-- Created indiviudal tabs for each individual
-- Created Weather from to send results for preferred weather condtions
+- Created individual tabs for each individual
+- Created a Weather form to send results for preferred weather condtions
 - Attempted connection between backend database to Frontend form results 
 
 ## Finding a Dataset
